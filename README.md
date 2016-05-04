@@ -1,5 +1,7 @@
 # Wercker step for retrieving a single file from S3
 
+[![wercker status](https://app.wercker.com/status/85ad1137259f397810807499c88e5c97/m "wercker status")](https://app.wercker.com/project/bykey/85ad1137259f397810807499c88e5c97)
+
 This step lets you retrieve a single file from a private S3 bucket. This can be useful in case you store configuration files or assets there that you require in your build.
 
 # AWS Configuration

@@ -1,5 +1,5 @@
 name: s3get
-version: "0.9.0"
+version: "1.0.0"
 description: |
     Retrieve a single file from S3
 type: build
