@@ -1,0 +1,26 @@
+name: s3get
+version: "0.9.0"
+description: |
+    Retrieve a single file from S3
+type: build
+properties:
+  properties:
+    access_key:
+        type: string
+        required: true
+    secret_key:
+        type: string
+        required: true
+    bucket:
+        type: string
+        required: true
+    key:
+        type: string
+        required: true
+    region:
+        type: string
+        default: "us-east-1"
+        required: false
+    filename:
+        type: string
+        required: false
